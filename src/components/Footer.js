@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "../theme-change.min.js";
+import { version } from "../config"
 
 function setTheme(theme) {
   document.getElementsByTagName("html")[0].setAttribute("data-theme", theme)
@@ -77,6 +78,7 @@ export default function Footer() {
         </div>
         <div class="col">
           <p>&copy; Copyright 2018 - 2021 STComix. 保留所有权利.</p>
+          <p>Powered by STComix Web v{version}.</p>
         </div>
       </div>
     </div>

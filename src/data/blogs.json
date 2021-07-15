@@ -1,0 +1,12 @@
+[
+    {
+        "title": "我们毕业了",
+        "desc": "离别不是永别，离别，是为了更好的开始。",
+        "file": "goodbye"
+    },
+    {
+        "title": "关于本网站",
+        "desc": "这个网站（https://stcomix.vercel.app）是由Sam编写并发布的。",
+        "file": "about"
+    }
+]
