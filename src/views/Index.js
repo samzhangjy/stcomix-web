@@ -69,6 +69,22 @@ export default function Index() {
           </div>
         </div>
       </div>
+      <div className="hero min-h-screen">
+        <div className="flex-col hero-content lg:flex-row-reverse">
+          <div>
+            <h1 className="mb-5 text-5xl font-bold">Sun</h1>
+            <p className="mb-5">
+              又称“阿布狗”，STComix编剧。他从2020年加入STComix，为我们的漫画事业增添了许多乐趣。当然，他所指导Sam撰写的《地球星团》也受到了广大读者的一致好评。
+            </p>
+            <button className="btn btn-disabled">暂无公开联系方式</button>
+          </div>
+          <img
+            src="/assets/sun.jpg"
+            className="max-w-sm rounded-lg shadow-2xl"
+            alt="Sun"
+          />
+        </div>
+      </div>
     </div>
   );
 }
